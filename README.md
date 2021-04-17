@@ -9,7 +9,7 @@ Pythonで選択ソートとクイックソートを実装しました
 
 ## クイックソート
 
-> 1. 適当な数（**[ピボット](https://ja.wikipedia.org/w/index.php?title=ピボット_(数学)&action=edit&redlink=1)（[英語版](https://en.wikipedia.org/wiki/Pivot_element)）**という）を選択する（この場合は[データ](https://ja.wikipedia.org/wiki/データ)の総数の[中央値](https://ja.wikipedia.org/wiki/中央値)が望ましい）
+> 1. 適当な数（ピボットという）を選択する（この場合は[データ](https://ja.wikipedia.org/wiki/データ)の総数の[中央値](https://ja.wikipedia.org/wiki/中央値)が望ましい）
 > 2. ピボットより小さい数を前方、大きい数を後方に移動させる （分割）
 > 3. 二分割された各々のデータを、それぞれソートする
 
