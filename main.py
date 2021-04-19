@@ -1,6 +1,7 @@
 import copy
 from quick_sort import quick_sort
 from selection_sort import selection_sort
+from merge_sort import merge_sort
 
 if __name__=='__main__':
 
@@ -13,3 +14,7 @@ if __name__=='__main__':
     arr_for_qs=copy.deepcopy(arr)
     arr_for_qs=quick_sort(arr_for_qs)
     print(f'quick_sort    : {arr_for_qs}')
+
+    arr_for_ms=copy.deepcopy(arr)
+    arr_for_ms=merge_sort(arr_for_ms)
+    print(f'merge_sort    : {arr_for_ms}')
