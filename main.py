@@ -6,7 +6,7 @@ from bubble_sort import bubble_sort
 
 if __name__=='__main__':
 
-    arr=[3,5,2,4,1]
+    arr=[3,5,2,4,1,6]
 
     arr_for_ss=copy.deepcopy(arr)
     selection_sort(arr_for_ss)
