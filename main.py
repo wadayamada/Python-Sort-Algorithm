@@ -4,6 +4,7 @@ from selection_sort import selection_sort
 from merge_sort import merge_sort
 from bubble_sort import bubble_sort
 from heap_sort import heap_sort
+from insertion_sort import insertion_sort
 
 if __name__=='__main__':
 
@@ -28,3 +29,7 @@ if __name__=='__main__':
     arr_for_hs=copy.deepcopy(arr)
     arr_for_hs=heap_sort(arr_for_hs)
     print(f'heap_sort     : {arr_for_hs}')
+
+    arr_for_is=copy.deepcopy(arr)
+    arr_for_is=insertion_sort(arr_for_is)
+    print(f'insertion_sort: {arr_for_is}')
