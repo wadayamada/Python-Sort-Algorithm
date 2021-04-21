@@ -1,5 +1,4 @@
-# Python-Sort-Algorithm
-Pythonで選択ソートとクイックソートを実装しました
+# 各種ソート・各種探索
 
 ## 選択ソート
 
