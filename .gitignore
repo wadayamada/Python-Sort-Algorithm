@@ -12,3 +12,4 @@ sort/__pycache__/quick_sort.cpython-38.pyc
 sort/__pycache__/selection_sort.cpython-38.pyc
 sort/__pycache__/insertion_sort.cpython-38.pyc
 search/__pycache__/linear_sort.cpython-38.pyc
+search/__pycache__/binary_search.cpython-38.pyc
