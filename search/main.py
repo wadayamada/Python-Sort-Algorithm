@@ -1,4 +1,5 @@
 from linear_sort import linear_sort
+from binary_search import binary_search
 
 if __name__=='__main__':
 
@@ -6,3 +7,6 @@ if __name__=='__main__':
     target=4
 
     print(linear_sort(arr,target))
+
+    sorted_arr=sorted(arr)
+    print(binary_search(sorted_arr,target))
